@@ -1,0 +1,19 @@
+name: DebugStick
+version: "${pom.version}"
+api: ["1.0.0"]
+author: PetteriM1
+main: me.petterim1.debugstick.Main
+
+commands:
+  debugstick:
+    description: Give debug stick
+    usage: "/debugstick [player]"
+    permission: debugstick.give
+
+permissions:
+  debugstick.use:
+    default: op
+  debugstick.give:
+    default: op
+  debugstick.give.others:
+    default: op
